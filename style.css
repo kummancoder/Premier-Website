@@ -604,7 +604,91 @@ text-transform: uppercase;
     font-weight: 400;
     width: 50%;
     height: 100%;
-
 }
 /* marque */
+#marque{
+    width: 100%;
+    white-space: nowrap;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding:0.5vw 0vw ;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
+}
+#marque h1{
+    display: inline-block;
+    /* background-color: #2b0707; */
+    text-transform: uppercase;
+    margin-right: 16px;
+    font-size: 3vw;
+    font-weight: 900;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: transparent;
+    animation-name: marque-animation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes marque-animation{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+#finalPage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding:4vw 3vw;
+    gap: 2vw;
+}
+#finalPage #left{
+    width: 20%;
+    height: 100%;
+    /* background-color: #2b0707; */
+}
+#finalPage #left h2{
+    width: 100%;
+    font-size: 3vw;
+    font-family: 'monument';
+    font-weight: 600;
+    /* margin-bottom: 5vw; */
+    text-transform: uppercase; 
+}
+#finalPage #mid{
+    width: 40%;
+    height: 100;
+    /* background-color: #ed2727; */
+}
+#finalPage #mid img{
+   height: 85%;
+   width: 100%;
+   object-fit: cover;
+   object-position: top;
+}
+#finalPage #mid p{
+    margin-top: 2vw;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+#finalPage #right{
+    /* background-color: antiquewhite; */
+    width: 40%;
+    height: 100;
+}
+#finalPage #right img{
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+ }
+ #finalPage #right p{
+    margin-top: 2vw;
+     text-align: left;
+     font-weight: 700;
+     font-size: 1.3vw;
+ }
