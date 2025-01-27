@@ -11,7 +11,7 @@
 
 ## Demo
 1.![image](https://github.com/user-attachments/assets/8550dca6-f097-41dd-8759-66a74c759bf0)
-2.![image](https://github.com/user-attachments/assets/e1f39649-0b92-4d4c-8fed-4d20a69cd92f)
+2.![image](https://github.com/user-attachments/assets/9deb16d1-a526-49a9-bb61-bee86ab2c818)
 3.![image](https://github.com/user-attachments/assets/3bd09316-613b-42c3-a2e4-96b1cb2d3132)
 4.![image](https://github.com/user-attachments/assets/9f13e109-c7d6-46bf-bd72-d60634029375)
 5.![image](https://github.com/user-attachments/assets/b71fd5cf-f1d0-418b-931f-fa4de1a456db)
